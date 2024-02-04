@@ -63,6 +63,8 @@ ul {
     overflow: hidden;
     display:flex;
     justify-content:start;
+    position: sticky;
+    top:0px;
 }
 
 li a{
@@ -292,6 +294,25 @@ li a:hover:not(.active){
 .ad_table3:hover{
     border:1px solid rgb(6, 7, 8);
 }
+.ad_offer{
+    position: absolute;
+    background-color: #04AA6D;
+    width:38px;
+    height:20px;
+    padding-left:2px;
+    border: 1px solid rgba(0, 0, 0, 0.429);
+    top:0px;
+    left:0px;
+}
+.ad_offer1{
+    position: absolute;
+    background-color: #04AA6D;
+    width:38px;
+    height:20px;
+    padding-left:2px;
+    top:0px;
+    left:0px;
+}
 .ad_table4{
     position: absolute;
     background-color:white;
@@ -324,4 +345,67 @@ li a:hover:not(.active){
 }
 .ad_icons:hover{
     background-color: rgba(255, 0, 0, 0.509);
+}
+.footer{
+    position: relative;
+    background-color:lightgray;
+    width: 100%;
+    height: 350px;
+    padding: 20px;
+}
+.foot_logo{
+    position: absolute;
+    top:40%;
+    left:10%;
+    color:red;
+    font-weight: bold;
+}
+.foot_title1{
+    position: absolute;
+    color:blue;
+    font-size: 20px;
+    font-weight: bold;
+    top:35px;
+    left:36%;
+}
+.foot_para1{
+    position:absolute;
+    top:55px;
+    left:39%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+}
+.foot_title2{
+    position: absolute;
+    color:blue;
+    font-size: 20px;
+    font-weight: bold;
+    top:35px;
+    right:27%;
+}
+.foot_para2{
+    position:absolute;
+    top:55px;
+    right:15%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+}
+.foot_para3{
+    position:absolute;
+    bottom:5%;
+    left:9%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:medium;
+    letter-spacing: 3px;
+}
+.foot_box{
+    position: absolute;
+    background-color:lightgrey;
+    border: 1px solid black;
+    padding:12px;
+    bottom:5%;
+    left:45%;
+}
+.foot_box:hover{
+    border: 1.6px solid black;
 }
