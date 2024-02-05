@@ -1,26 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .container{
     width: 100%;
     height:580px;
-    background-color: red;
+    background-color:papayawhip;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1.8px solid black;
 }
-
 .singin_container{
-    
-    background-color: blueviolet;
-    width:27%;
-    height: 450px;
+    background-color: white;
+    border: 1.8px solid lavender;
+    border-radius: 5px;
+    width:28%;
+    height: 390px;
     position: relative;
-    
 }
-.form{
+.singin_container:hover{
+    background-color:pink;
+    border: 1.8px solid rgba(0, 0, 0, 0.782);
+}
+.title{
     position: absolute;
-    top:30px;
-    left:20px;
-    
+    color:black;
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+    top:15px;
+    left:40%;
+}
+input[type=email]{
+    background-color:#0deb15;
+    position: absolute;
+    top:70px;
+    left:57px;
+    border:0px solid black;
+    color:white;
+    font-size: 16px;
+    padding: 19px 30px;
+    border-radius:30px;
+    height: 20px;
+    width: 250px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+input[type=password]{
+    position: absolute;
+    background-color:#0deb15;
+    border: 0px solid black;
+    color:white;
+    font-size: 16px;
+    padding: 19px 30px;
+    border-radius:30px;
+    height: 20px;
+    width: 250px;
+    box-sizing: border-box;
+    top:140px;
+    left:57px;
+    font-family: 'Roboto', sans-serif;
+}
+.forget_pass{
+    color:red;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 165px;
+    right: 55px;
+    cursor:pointer;
+}
+input[type=submit]{
+    background-color:rgba(0, 0, 255, 0.718);
+    position: absolute;
+    bottom: 110px;
+    left: 57px;
+    border: 0px solid black;
+    color:white;
+    font-size: 16px;
+    padding: 19px 30px;
+    border-radius:30px;
+    height: 20px;
+    width: 250px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    cursor:pointer;
+}
+input[type=submit]:hover{
+    background-color:blue;
+}
 
-
-
+.signup{
+    color:black;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom:40px;
+    left:40px;
+    cursor:pointer;
+    text-decoration: none;
 }
