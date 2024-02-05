@@ -23,28 +23,38 @@ div.header_container{
     position: absolute;
     left:2%;
 }
-.search{
+.title{
     position: absolute;
-    left:36%;
-    z-index:2;
-    text-align: center;
+    left:95px;
+    top:40px;
 }
 .search_box{
     position: absolute;
-    right:50%;
-    z-index:1;
+    left:30%;
 }
+input[type=text] {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color:white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: repeat;
+    padding: 12px 20px 12px 40px;
+    color:black;
+  }
 .sign_in{
     position: absolute;
-    right:22%;
+    right:25%;
 }
 .sign_up{
     position: absolute;
-    right:16%;
+    right:18%;
 }
 .wlist{
     position: absolute;
-    right:8%;
+    right:9%;
 }
 .cart{
     position: absolute;
