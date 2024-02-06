@@ -2,24 +2,27 @@
     margin: 0px;
     padding: 0px;
 }
+
 .container{
+    position: relative;
     width: 100%;
-    height:580px;
+    height:570px;
     background-color:papayawhip;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    column-gap: 50px;
     border: 1.8px solid black;
 }
-.singin_container{
+.singup_container{
+    position: absolute;
+    top:5%;
+    left:35%;
     background-color: white;
     border: 1.8px solid lavender;
     border-radius: 5px;
-    width:25%;
-    height: 350px;
+    width:26%;
+    height: 500px;
     position: relative;
 }
-.singin_container:hover{
+.singup_container:hover{
     background-color:honeydew;
     border: 1.8px solid rgba(0, 0, 0, 0.782);
 }
@@ -31,11 +34,41 @@
     top:15px;
     left:40%;
 }
-input[type=email]{
+input[type=text]{
     background-color:#0deb15;
     position: absolute;
     top:70px;
-    left:35px;
+    left:45px;
+    border:0px solid black;
+    color:white;
+    font-size: 16px;
+    padding: 19px 30px;
+    border-radius:20px;
+    height: 20px;
+    width: 250px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+input[type=text1]{
+    background-color:#0deb15;
+    position: absolute;
+    top:130px;
+    left:45px;
+    border:0px solid black;
+    color:white;
+    font-size: 16px;
+    padding: 19px 30px;
+    border-radius:20px;
+    height: 20px;
+    width: 250px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+input[type=email]{
+    background-color:#0deb15;
+    position: absolute;
+    top:190px;
+    left:45px;
     border:0px solid black;
     color:white;
     font-size: 16px;
@@ -57,24 +90,42 @@ input[type=password]{
     height: 20px;
     width: 250px;
     box-sizing: border-box;
-    top:140px;
-    left:35px;
+    top:250px;
+    left:45px;
     font-family: 'Roboto', sans-serif;
 }
-.forget_pass{
-    color:red;
-    font-size: small;
+input[type=password1]{
+    position: absolute;
+    background-color:#0deb15;
+    border: 0px solid black;
+    color:white;
+    font-size: 16px;
+    padding: 19px 30px;
+    border-radius:30px;
+    height: 20px;
+    width: 250px;
+    box-sizing: border-box;
+    top:310px;
+    left:45px;
+    font-family: 'Roboto', sans-serif;
+}
+input[type=checkbox]{
+    position: absolute;
+    top:370px;
+    left:75px;
+}
+.terms_container{
+    font-size:small;
     font-family: 'Times New Roman', Times, serif;
     position: absolute;
-    top: 210px;
-    right: 55px;
-    cursor:pointer;
+    top: 368px;
+    left:93px;
 }
 input[type=submit]{
     background-color:rgba(0, 0, 255, 0.718);
     position: absolute;
-    top: 245px;
-    left: 35px;
+    top:410px;
+    left:45px;
     border: 0px solid black;
     color:white;
     font-size: 16px;
@@ -89,14 +140,13 @@ input[type=submit]{
 input[type=submit]:hover{
     background-color:blue;
 }
-
-.signup{
+.login{
     color:black;
-    font-size: small;
+    font-size:small;
     font-family: 'Times New Roman', Times, serif;
     position: absolute;
-    top:310px;
-    left:99px;
+    top:467px;
+    left:95px;
     cursor:pointer;
     text-decoration: none;
 }
