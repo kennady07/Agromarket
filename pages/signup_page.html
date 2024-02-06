@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>signin</title>
+    <title>signup</title>
     <link rel="stylesheet" href="assets/style/signin_style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
     <script src="https://kit.fontawesome.com/29c8fa4054.js" crossorigin="anonymous"></script>
@@ -11,15 +11,19 @@
 <body>
     <div class="container">
         <section class="singin_container">
-            <div class="title">Login</div>
+            <div class="title">Sign Up</div>
             <form action="index.html" method="get" autocomplete="on">
+                <input type="text" placeholder="  First Name">
+                <input type="text" placeholder="  Last Name">
                 <input type="email" placeholder=" Email">
                 <input type="password" placeholder=" Password">
-                <input type="submit" value="Login">
+                <input type="password" placeholder=" Confirm Password">
+                <input type="checkbox">
+                <input type="submit" value="sign up">
             </form>
-            <a href="index.html"><p class="forget_pass">Forget Password?</p></a>
+            <p class="forget_pass">I agree to this Terms & Conditions</p>
             <div class="signup">
-               <p>Not have an account? <a href="index.html"><span style="color: red;">Sign Up Here</span></a></p>
+               <p>Already have an account?<a href="sign_in_page.html"><span style="color: blue;">Login Here</span></a></p>
             </div>
         </section>
     </div>
