@@ -1,3 +1,3 @@
 # Agromarket
 This is the simple e-commerce website for agricultural products only.
-The hosted link is: https://65c7af21e29cb789de86ab3b--keen-stardust-30c884.netlify.app/
+The hosted link is: https://65d0604fbb272e72172f8368--zingy-sherbet-3996bf.netlify.app/
