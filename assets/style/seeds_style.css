@@ -76,35 +76,57 @@ input[type=text] {
     width: 200%;
     padding: 10px;
 }
+
+
 ul {
     list-style-type: none;
-    margin:0px;
     padding:0px;
     background-color: #333 ;
     width:100%;
-    overflow: hidden;
     display:flex;
     justify-content:start;
-    position: sticky;
-    top:0px;
 }
-
+nav{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
 li a{
-
     display: block;
     color:white;
     text-align: center;
     padding:20px;
     font-size: medium;
     text-decoration:none;
+    transition: all,0.5s;
 }
-
-li a:hover:not(.active){
+li a:hover{
     background-color:#111;
 }
-.active{
-    background-color:#04AA6D;
+.dropdown{
+    display: inline-block;
 }
+.dropdown_content{
+    display: none;
+    position: absolute;
+    border:0.3px solid grey;
+    background-color:white;
+    min-width:auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+.dropdown_content a {
+    color:red;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown_content a:hover {background-color: grey}
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+
 .nseeds_container{
     background-color:rgba(8, 223, 8, 0.68);
     width: 100%;
