@@ -78,7 +78,22 @@
                 </div>
             </li>
         </ul>
-    </nav><br>
+    </nav>
+    <div class="topnav">
+        <a href="../index.html">AGROMARKET</a>
+        <div id="mylink">
+            <a href="../index.html">HOME</a>
+            <a href="seeds.html">SEEDS</a>
+            <a href="fertilizer.html">FERTILIZER</a>
+            <a href="pesticide.html">PESTICIDE</a>
+            <a href="tools.html">AGRI TOOLS</a>
+            <a href="irrigationaltool.html">IRRIGATIONAL PRODUCT</a>
+            <a href="sign_in_page.html">SIGN IN</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div><br>
     <section class="nseeds_container">ORGANIC FERTILIZER</section>
     <section class="grid_container">
         <div>
@@ -480,7 +495,6 @@
         <p class="foot_para1"><br>About Us <br>Contact Us <br>Privacy Policy <br>Terms & Conditions <br>FAQ <br>Testimonials</p>
         <p class="foot_title2">CONTACT</p>
         <p class="foot_para2"><br>AGROMARKET ONLINE<br>#36, Chennai, Tamil Nadu<br><u>info@agro-market.com</u><br>Monday-Friday:9am to 5pm<br>Saturday-Sunday:10am to 2pm</p>
-        
     </footer>
     <section class="foot">
         <p class="foot_para3">Copyright <i class="fa-regular fa-copyright fa-xs" style="color:black;"></i>2023 AGROMARKET ONLINE</p>
@@ -492,5 +506,15 @@
             <a href="#index.html"><i class="fa-brands fa-youtube fa-2xl" style="color:black"></i></a>
         </div>
     </section>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mylink");
+            if (x.style.display === "block") {
+            x.style.display = "none";
+            } else {
+             x.style.display = "block";
+            }
+        }
+    </script>
 </body>
 </html>
