@@ -75,7 +75,22 @@
                 </div>
             </li>
         </ul>
-    </nav><br>
+    </nav>
+    <div class="topnav">
+        <a href="index.html">AGROMARKET</a>
+        <div id="mylink">
+            <a href="index.html">HOME</a>
+            <a href="pages/seeds.html">SEEDS</a>
+            <a href="pages/fertilizer.html">FERTILIZER</a>
+            <a href="pages/pesticide.html">PESTICIDE</a>
+            <a href="pages/tools.html">AGRI TOOLS</a>
+            <a href="pages/irrigationaltool.html">IRRIGATIONAL PRODUCT</a>
+            <a href="pages/sign_in_page.html">SIGN IN</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div><br>
     <div class="ad_container">
         <div class="right_bar"><i class='fas fa-angle-double-right' style='font-size:25px;line-height:60px;'></i></div>
         <div class="left_bar"><i class='fas fa-angle-double-left'  style='font-size:25px;line-height:60px;'></i></div>
@@ -189,5 +204,15 @@
             <a href="#index.html"><i class="fa-brands fa-youtube fa-2xl" style="color:black"></i></a>
         </div>
     </section>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mylink");
+            if (x.style.display === "block") {
+            x.style.display = "none";
+            } else {
+             x.style.display = "block";
+            }
+        }
+    </script>
 </body>
 </html>
