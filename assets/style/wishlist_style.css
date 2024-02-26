@@ -43,26 +43,6 @@ input[type=text] {
     padding: 12px 20px 12px 40px;
     color:black;
   }
-.sign_in{
-    position: absolute;
-    right:25%;
-}
-.sign_in:hover{
-    background-color:orange;
-    border: 1px solid orange;
-    padding: 7px;
-    border-radius: 3px;
-}
-.sign_up{
-    position: absolute;
-    right:18%;
-}
-.sign_up:hover{
-    background-color:orange;
-    border: 1px solid orange;
-    padding: 7px;
-    border-radius: 3px;
-}
 .wlist{
     position: absolute;
     right:9%;
@@ -119,7 +99,7 @@ input[type=text] {
 }
 .button{
     position: absolute;
-    bottom: 250px;
+    bottom: 230px;
     left: 35%;
     background-color:rgba(255, 0, 0, 0.726);
     border:1px solid red;
