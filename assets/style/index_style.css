@@ -128,7 +128,7 @@ li a:hover{
 .topnav{
     display:none;
 }
-
+/*
 .ad_container{
     background-color:white;
     border:1px solid #E7E9EB;
@@ -221,7 +221,7 @@ li a:hover{
 }
 .circle3:hover{
     background-color:#333;
-}
+}*/
 .category_block{
     background-color:rgba(0, 128, 0, 0.571);
     width: 100%;
@@ -244,7 +244,6 @@ li a:hover{
     gap:30px 70px;
     padding-bottom: 40px;
     padding-top: 40px;
-    
 }
   
 .grid_container > div {
@@ -262,6 +261,10 @@ li a:hover{
     height: 250px;
     width: 180px;
 }
+.grid_para{
+    font-size: 16px;
+}
+
 .para{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
@@ -534,14 +537,10 @@ li a:hover{
         height:300px;
        
     }
-    .category_block{
-        background-color:rgba(0, 128, 0, 0.571);
+    #demo{
         width: 100%;
-        height:50px;
-        text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        padding-top:15px;
     }
+   
     .grid_container {
         background-color:#eeeeee;
         display: grid;
@@ -681,14 +680,10 @@ li a:hover{
         color: black;
         z-index: 1;
     }
-    .ad_container{
-        background-color:white;
-        border:1px solid #E7E9EB;
+   #demo{
         width: 890px;
-        height:300px;
-        z-index: 1;
-       
     }
+
     .category_block{
         background-color:rgba(0, 128, 0, 0.571);
         width: 890px;
@@ -820,7 +815,7 @@ li a:hover{
         position: relative;
         background-color:gray;
         width: 890px;
-        height: 1520px;
+        height: 1640px;
         padding: 20px;
         z-index: 1;
     }
